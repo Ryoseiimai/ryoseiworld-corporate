@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c63ff"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="20" fill="url(#bg)"/>
+  <circle cx="200" cy="155" r="65" fill="#2a2a4a"/>
+  <circle cx="200" cy="155" r="63" fill="url(#accent)" opacity="0.15"/>
+  <circle cx="200" cy="150" r="45" fill="#3a3a5a"/>
+  <!-- Head -->
+  <circle cx="200" cy="135" r="38" fill="#c4a882"/>
+  <!-- Hair -->
+  <ellipse cx="200" cy="115" rx="40" ry="25" fill="#2a2a2a"/>
+  <ellipse cx="175" cy="125" rx="12" ry="20" fill="#2a2a2a"/>
+  <ellipse cx="225" cy="125" rx="12" ry="20" fill="#2a2a2a"/>
+  <!-- Eyes -->
+  <ellipse cx="186" cy="138" rx="4" ry="4.5" fill="#2a2a2a"/>
+  <ellipse cx="214" cy="138" rx="4" ry="4.5" fill="#2a2a2a"/>
+  <!-- Smile -->
+  <path d="M190 152 Q200 162 210 152" stroke="#2a2a2a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Body -->
+  <path d="M140 250 Q140 200 170 185 Q185 178 200 178 Q215 178 230 185 Q260 200 260 250 L260 320 L140 320 Z" fill="#1e1e3a"/>
+  <!-- Suit collar -->
+  <path d="M175 185 L200 210 L225 185" stroke="#6c63ff" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Bottom fade -->
+  <rect x="0" y="300" width="400" height="100" fill="url(#bg)"/>
+  <!-- Name text -->
+  <text x="200" y="360" text-anchor="middle" fill="#a0a0a0" font-family="sans-serif" font-size="16" font-weight="500">Ryosei Imai</text>
+  <text x="200" y="382" text-anchor="middle" fill="#6c63ff" font-family="sans-serif" font-size="12" font-weight="400">CEO / RYOSEIWORLD LLC</text>
+</svg>
