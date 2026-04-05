@@ -325,6 +325,12 @@ img {
   gap: 24px;
 }
 
+@media (min-width: 769px) and (max-width: 1200px) {
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .service-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
